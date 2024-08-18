@@ -1,7 +1,7 @@
-### SQL Command Forge
+# SQL Command Forge
 
-# Welcome to the SQL Commands Repository! This repository contains a collection of common SQL commands and operations used for database management. Whether you're creating tables, inserting data, or modifying structures, these commands will help you effectively manage your SQL databases.
-# Table of Contents
+#### Welcome to the SQL Commands Repository! This repository contains a collection of common SQL commands and operations used for database management. Whether you're creating tables, inserting data, or modifying structures, these commands will help you effectively manage your SQL databases.
+#### Table of Contents
 1. Create a Table
 2. Insert Values
 3. Truncate a Table
@@ -15,8 +15,8 @@
 11. Delete From Table
 12. Update a Column
 
-### Contributing
+#### Contributing
 Feel free to fork this repository and submit pull requests with additional SQL commands or improvements.
 
-### License
+#### License
 This repository is licensed under the MIT License. See the LICENSE file for details.
