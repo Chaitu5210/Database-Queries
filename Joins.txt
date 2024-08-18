@@ -1,0 +1,9 @@
+SELECT e.emp_name, d.dept_name
+FROM employees e
+JOIN departments d
+ON e.dept_id = d.dept_id;
+
+
+join - LEFT JOIN, INNER JOIN, SELF JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN
+In this query, e is an alias for the employees table, and d is an alias for the departments table. 
+You can specify the type of join (LEFT JOIN, INNER JOIN, SELF JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN) depending on your requirements.
