@@ -14,6 +14,7 @@
 10. Select Distinct Values
 11. Delete From Table
 12. Update a Column
+13. Joins
 
 #### Contributing
 Feel free to fork this repository and submit pull requests with additional SQL commands or improvements.
