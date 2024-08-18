@@ -1,0 +1,12 @@
+SELECT name 
+FROM students
+WHERE age > (SELECT AVG(age) FROM students);
+
+The subquery (SELECT AVG(age) FROM students) is nested within the main query. 
+It calculates the average age from the students table, and the main query selects the names of students whose age is greater than this average age.
+
+
+
+
+
+
