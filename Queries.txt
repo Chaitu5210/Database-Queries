@@ -1,2 +1,85 @@
-'''bash
-hello
+#Create A Table
+create table table_name (
+    column1 Datatype,
+    column2 Datatype PRIMARY KEY,
+    column3 Datatype NOT NULL,
+    FOREIGN KEY (column3) References Another_Table(Another_Table_column)
+);
+
+-----------------------------------------------------------------------------------------------------
+
+# Insert Values Into The Table 
+INSERT INTO Table_name (Column1, Column2, Column3)
+VALUES (values1,values2,values3);
+
+------------------------------------------------------------------------------------------------------
+
+# Truncating The Table : This will only delete the values in the table not the entire table
+TRUNCATE TABLE Table_Name;
+
+------------------------------------------------------------------------------------------------------
+
+# Dropping A Table : will completely drop the table
+DROP TABLE table_name;
+
+-----------------------------------------------------------------------------------------------------
+
+# Selecting Some Columns
+SELECT column_name1,column_name2
+FROM table_name
+WHERE condition;
+
+-----------------------------------------------------------------------------------------------------
+
+# Altering The Table : Will be used to modify the structure of the table
+ALTER TABLE table_name
+ADD column_name Datatype;
+
+-----------------------------------------------------------------------------------------------------
+
+# Altering for dropping a column
+ALTER TABLE table_name
+DROP COLUMN column_name; 
+
+-----------------------------------------------------------------------------------------------------
+
+# Rename the table
+ALTER TABLE oldname RENAME TO New_name;
+
+-----------------------------------------------------------------------------------------------------
+
+# Renaming the column name
+ALTER TABLE table_name
+RENAME COLUMN column_name TO New_name;
+
+-----------------------------------------------------------------------------------------------------
+
+# Modifying the Datatype
+ALTER TABLE table_name
+MODIFY COLUMN column_name Datatype;
+
+-----------------------------------------------------------------------------------------------------
+
+# CHANGING IT TO FOREIGN KEY
+ALTER TABLE table_name
+ADD CONSTRAINT column_name
+FOREIGN KEY (column_name) references other_table(other_table_column_name);
+
+-----------------------------------------------------------------------------------------------------
+
+# Distinct table : Will be used to select on the Distinct Values
+SELECT DISTINCT Column_name 
+FROM table_name;
+
+-----------------------------------------------------------------------------------------------------
+
+# DELETING FROM TABLE
+DELETE FROM TABLE 
+WHERE CONDITION;
+
+-----------------------------------------------------------------------------------------------------
+
+# Updating a column
+UPDATE TABLE table_name
+SET column = ________
+WHERE CONDITION;
