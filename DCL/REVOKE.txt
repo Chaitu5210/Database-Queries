@@ -1,0 +1,14 @@
+-- Revoking SELECT and INSERT privileges on a table from a user
+REVOKE SELECT, INSERT
+ON table_name
+FROM username;
+
+-- Revoking all privileges on a table from a user
+REVOKE ALL PRIVILEGES
+ON table_name
+FROM username;
+
+-- Revoking specific privileges from a role
+REVOKE SELECT, UPDATE
+ON table_name
+FROM role_name;

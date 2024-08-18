@@ -1,0 +1,2 @@
+INSERT INTO Table_name (Column1, Column2, Column3)
+VALUES (values1,values2,values3);

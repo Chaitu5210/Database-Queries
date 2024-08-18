@@ -1,0 +1,7 @@
+#Create A Table
+create table table_name (
+    column1 Datatype,
+    column2 Datatype PRIMARY KEY,
+    column3 Datatype NOT NULL,
+    FOREIGN KEY (column3) References Another_Table(Another_Table_column)
+);

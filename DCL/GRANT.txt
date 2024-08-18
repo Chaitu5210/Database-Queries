@@ -1,0 +1,13 @@
+GRANT SELECT, INSERT
+ON table_name
+TO username;
+
+-- Granting all privileges on a table to a user
+GRANT ALL PRIVILEGES
+ON table_name
+TO username;
+
+-- Granting specific privileges to a role
+GRANT SELECT, UPDATE
+ON table_name
+TO role_name;

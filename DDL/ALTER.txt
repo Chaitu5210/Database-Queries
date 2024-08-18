@@ -1,0 +1,33 @@
+# Altering The Table : Will be used to modify the structure of the table
+ALTER TABLE table_name
+ADD column_name Datatype;
+
+-----------------------------------------------------------------------------------------------------
+
+# Altering for dropping a column
+ALTER TABLE table_name
+DROP COLUMN column_name; 
+
+-----------------------------------------------------------------------------------------------------
+
+# Rename the table
+ALTER TABLE oldname RENAME TO New_name;
+
+-----------------------------------------------------------------------------------------------------
+
+# Renaming the column name
+ALTER TABLE table_name
+RENAME COLUMN column_name TO New_name;
+
+-----------------------------------------------------------------------------------------------------
+
+# Modifying the Datatype
+ALTER TABLE table_name
+MODIFY COLUMN column_name Datatype;
+
+-----------------------------------------------------------------------------------------------------
+
+# CHANGING IT TO FOREIGN KEY
+ALTER TABLE table_name
+ADD CONSTRAINT column_name
+FOREIGN KEY (column_name) references other_table(other_table_column_name);
